@@ -85,10 +85,6 @@ docs = [
 service-a-legacy = { workspace = true }
 service-b-modern = { workspace = true }
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
